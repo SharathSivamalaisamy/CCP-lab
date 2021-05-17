@@ -1,0 +1,16 @@
+#include<stdio.h> // include stdio.h
+
+int main()
+{
+    float fah, cel;
+
+    printf("Enter a temp in Fahrenheit: ");
+    scanf("%f", &fah);
+
+    cel = (5.0/9) * (fah - 32);
+
+    printf("%fF in Celsius is  %fC", fah, cel);
+
+    return 0 ;
+}
+
