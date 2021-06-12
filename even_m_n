@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+    int m,n;
+    printf("\t enter the smaller number m:\t");
+    scanf("%d",&m);
+    printf("\t enter the bigger number n:\t");
+    scanf("%d",&n);
+    do
+    
+    {
+        if(m%2==0)
+        //condition for even number
+        {
+            printf("\t the even number is : \t%d\n",m);
+            m=m+2;
+        }
+        else
+        {
+            m+=1;
+        }
+    }while(m<=n);
+}
