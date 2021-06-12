@@ -2,13 +2,13 @@
 #include<math.h>
 int main()
 {
-    int m=1,n,sum=0;
-    printf("\n\t Enter the the number till which, \n\t the sum of squares of odd numbers is to calculated:\t");
-    scanf("%d",&n);
+    int a=1,b,sum=0;
+    printf("\nEnter the the number till which, \n\t the sum of squares of odd numbers is to calculated:");
+    scanf("%d",&b);
     do{
-        sum=sum+pow(m,2);
-        m=m+2;
-    }while(m<=n);
-    printf("\n\t the sum of squares of odd numbers is:\t%d",sum);
+        sum=sum+pow(a,2);
+        a=a+2;
+    }while(a<=b);
+    printf("\n the sum of squares of odd numbers is:%d",sum);
     return 0;
 }
